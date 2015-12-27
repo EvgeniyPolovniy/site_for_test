@@ -1,0 +1,30 @@
+{
+  "name": "Evgeniy_Polovniy_Site",
+  "author": "Evgeniy Polovniy",
+  "version": "0.1.5",
+  "description": "A Node.js site using Express 4, EJS, SASS, Gulp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "^2.3.3",
+    "express": "^4.13.3",
+    "gulp": "^3.8.11",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.5.2",
+    "gulp-file-include": "^0.13.7",
+    "gulp-order": "^1.1.1",
+    "gulp-resolve-dependencies": "^2.1.0",
+    "gulp-sass": "^2.0.1",
+    "require-dir": "^0.3.0"
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "license": "MIT"
+}
