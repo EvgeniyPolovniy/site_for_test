@@ -1,0 +1,19 @@
+.content {
+  @include flexbox();
+  align-items: stretch;
+  flex-grow: 999999;
+  min-height: 100%;
+  width: 100%;
+  .header {
+    height: 350px;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    @for $i from 1 through $bg_amount {
+      &.bg-#{$i} {
+        background-image: url(../images/bg#{$i}.jpg); 
+      }
+    }
+    
+  }
+}

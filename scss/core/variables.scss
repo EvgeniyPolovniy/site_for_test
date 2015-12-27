@@ -1,60 +1,35 @@
 $tablet_width:                                                 480px;
 $desktop_width:                                                1024px;
 
+$bg_amount:                                                    20;
+
 $white:                                                        #fff;
 $white_50:                                                     rgba(255, 255, 255, .5);
 
 $black:                                                        #000;
 $black_20:                                                     rgba(0, 0, 0, .2);
 
-$outer_space:                                                  #273238;
-$pickled_bluewood:                                             #2c3e50;
-$oslo_gray:                                                    #828d93;
-$curious_blue:                                                 #3498db;
-$wisteria:                                                     #9b59b6;
-$cinnabar:                                                     #E74C3C;
-$porcelain:                                                    #ecf0f1;
-
-//login
-$login_color:                                                  $white;
+$turquoise:                                                    #1abc9c;
+$green_sea:                                                    #16a085;
+$sun_flower:                                                   #f1c40f;
+$orange:                                                       #f39c12;
+$emerland:                                                     #2ecc71;
+$nephritis:                                                    #27ae60;
+$carrot:                                                       #e67e22;
+$pumpkin:                                                      #d35400;
+$peter_river:                                                  #3498db;
+$belize_hole:                                                  #2980b9;
+$alizarin:                                                     #e74c3c;
+$pomegranate:                                                  #c0392b;
+$amethyst:                                                     #9b59b6;
+$wisteria:                                                     #8e44ad;
+$clouds:                                                       #ecf0f1;
+$silver:                                                       #bdc3c7;
+$wet_asphalt:                                                  #34495e;
+$midnight_blue:                                                #2c3e50;
+$concrete:                                                     #95a5a6;
+$asbestos:                                                     #7f8c8d;
 
 //main menu
 $main_menu_width:                                              200px;
 $main_menu_logo_height:                                        45px;
-
-$main_menu_bg:                                                 $outer_space;
-$main_menu_logo_bg:                                            $curious_blue;
-$main_menu_logo_color:                                         $white;
-$main_menu_type_color:                                         $oslo_gray;
-$main_menu_item_hover_bg:                                      $pickled_bluewood;
-$main_menu_item_color:                                         $oslo_gray;
-$main_menu_item_hover_color:                                   $white;
-
-//main content
-$main_content_top_bar_height:                                  $main_menu_logo_height;
-
-$main_content_bg:                                              $porcelain;
-$main_content_top_bar_bg:                                      $white;
-$main_content_top_bar_shadow:                                  $black_20;
-$main_content_top_bar_user_color:                              $oslo_gray;
-$main_content_top_bar_user_hover_color:                        $pickled_bluewood;
-$main_content_page_title_color:                                $oslo_gray;
-$main_content_white_bg:                                        $white;
-
-//sales info
-$sales_info_font_size:                                         18px;
-
-$sales_info_today_bg:                                          $curious_blue;
-$sales_info_weekly_bg:                                         $wisteria;
-$sales_info_total_bg:                                          $white;
-$sales_info_last_info_bg:                                      $white;
-$sales_info_today_color:                                       $white;
-$sales_info_info_color:                                        $white_50;
-$sales_info_total_title_color:                                 $oslo_gray;
-$sales_info_total_sale_sum_color:                              $cinnabar;
-$sales_info_other_title_color:                                 $oslo_gray;
-$sales_info_other_desc_color:                                  $outer_space;
-$sales_info_last_info_title_block_color:                       $oslo_gray;
-$sales_info_last_info_title_color:                             $outer_space;
-$sales_info_last_info_desc_color:                              $oslo_gray;
-$sales_info_last_info_title_badge_bg:                          $curious_blue;

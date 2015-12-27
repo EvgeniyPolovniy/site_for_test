@@ -159,4 +159,66 @@ ul {
   align-content: stretch;
   flex-direction: column;
   width: 100%;
-  min-height: 100%; }
+  min-height: 100%;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: .02em;
+  font-weight: 400;
+  box-sizing: border-box; }
+
+.content {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: stretch;
+  flex-grow: 999999;
+  min-height: 100%;
+  width: 100%; }
+  .content .header {
+    height: 350px;
+    width: 100%;
+    background-position: center center;
+    background-size: cover; }
+    .content .header.bg-1 {
+      background-image: url(../images/bg1.jpg); }
+    .content .header.bg-2 {
+      background-image: url(../images/bg2.jpg); }
+    .content .header.bg-3 {
+      background-image: url(../images/bg3.jpg); }
+    .content .header.bg-4 {
+      background-image: url(../images/bg4.jpg); }
+    .content .header.bg-5 {
+      background-image: url(../images/bg5.jpg); }
+    .content .header.bg-6 {
+      background-image: url(../images/bg6.jpg); }
+    .content .header.bg-7 {
+      background-image: url(../images/bg7.jpg); }
+    .content .header.bg-8 {
+      background-image: url(../images/bg8.jpg); }
+    .content .header.bg-9 {
+      background-image: url(../images/bg9.jpg); }
+    .content .header.bg-10 {
+      background-image: url(../images/bg10.jpg); }
+    .content .header.bg-11 {
+      background-image: url(../images/bg11.jpg); }
+    .content .header.bg-12 {
+      background-image: url(../images/bg12.jpg); }
+    .content .header.bg-13 {
+      background-image: url(../images/bg13.jpg); }
+    .content .header.bg-14 {
+      background-image: url(../images/bg14.jpg); }
+    .content .header.bg-15 {
+      background-image: url(../images/bg15.jpg); }
+    .content .header.bg-16 {
+      background-image: url(../images/bg16.jpg); }
+    .content .header.bg-17 {
+      background-image: url(../images/bg17.jpg); }
+    .content .header.bg-18 {
+      background-image: url(../images/bg18.jpg); }
+    .content .header.bg-19 {
+      background-image: url(../images/bg19.jpg); }
+    .content .header.bg-20 {
+      background-image: url(../images/bg20.jpg); }
