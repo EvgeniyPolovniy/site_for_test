@@ -1,3 +1,32 @@
+.active-menu {
+  .main-menu {
+    left: 0;
+    z-index: 100;
+  }
+  .menu-bg {
+    left: 0;
+    z-index: 99;
+  }
+}
 .main-menu {
-  
+  @include flexbox();
+  position: absolute;
+  top: 0;
+  left: -#{$main_menu_width};
+  width: $main_menu_width;
+  min-width: $main_menu_width;
+  min-height: 100%;
+  width: $main_menu_width;
+  background: $main_menu_bg;
+  @include transition;
+}
+.menu-bg {
+  position: fixed;
+  cursor: pointer;
+  top: 0;
+  left: -100%;
+  min-height: 100%;
+  min-width: 100%;
+  background: $main_menu_bg_before;
+  @include transition;
 }

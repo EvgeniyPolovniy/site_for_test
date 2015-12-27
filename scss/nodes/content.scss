@@ -4,16 +4,31 @@
   flex-grow: 999999;
   min-height: 100%;
   width: 100%;
+  background-color: $content_bg;
   .header {
-    height: 350px;
+    position: absolute;
+    height: $header_height;
     width: 100%;
     background-position: center center;
     background-size: cover;
+    box-shadow: $shadow;
+    z-index: 1;
     @for $i from 1 through $bg_amount {
       &.bg-#{$i} {
         background-image: url(../images/bg#{$i}.jpg); 
       }
     }
-    
+  }
+}
+.main-content {
+  width: 100%;
+  z-index: 2;
+  .card {
+    height: 500px;
+    width: 400px;
+    background: $main_content_card_bg;
+    margin: 0 auto;
+    box-shadow: $shadow;
+    @include border-radius;
   }
 }

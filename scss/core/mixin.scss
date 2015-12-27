@@ -16,34 +16,34 @@
   }
 }
 
-@mixin border-radius($radius: 3px) {
+@mixin border-radius($radius: 5px) {
   -webkit-border-radius: $radius;
   border-radius: $radius;
 }
 
 // Single side border-radius
-@mixin border-top-radius($radius: 3px) {
+@mixin border-top-radius($radius: 5px) {
   -webkit-border-top-right-radius: $radius;
   border-top-right-radius: $radius;
   -webkit-border-top-left-radius: $radius;
   border-top-left-radius: $radius;
 }
 
-@mixin border-right-radius($radius: 3px) {
+@mixin border-right-radius($radius: 5px) {
   -webkit-border-bottom-right-radius: $radius;
   border-bottom-right-radius: $radius;
   -webkit-border-top-right-radius: $radius;
   border-top-right-radius: $radius;
 }
 
-@mixin border-bottom-radius($radius: 3px) {
+@mixin border-bottom-radius($radius: 5px) {
   -webkit-border-bottom-right-radius: $radius;
   border-bottom-right-radius: $radius;
   -webkit-border-bottom-left-radius: $radius;
   border-bottom-left-radius: $radius;
 }
 
-@mixin border-left-radius($radius: 3px) {
+@mixin border-left-radius($radius: 5px) {
   -webkit-border-bottom-left-radius: $radius;
   border-bottom-left-radius: $radius;
   -webkit-border-top-left-radius: $radius;

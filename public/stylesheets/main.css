@@ -167,6 +167,48 @@ ul {
   font-weight: 400;
   box-sizing: border-box; }
 
+.active-menu .main-menu {
+  left: 0;
+  z-index: 100; }
+
+.active-menu .menu-bg {
+  left: 0;
+  z-index: 99; }
+
+.main-menu {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  min-width: 250px;
+  min-height: 100%;
+  width: 250px;
+  background: #34495e;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
+
+.menu-bg {
+  position: fixed;
+  cursor: pointer;
+  top: 0;
+  left: -100%;
+  min-height: 100%;
+  min-width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
+
 .content {
   display: -webkit-box;
   display: -moz-box;
@@ -176,12 +218,16 @@ ul {
   align-items: stretch;
   flex-grow: 999999;
   min-height: 100%;
-  width: 100%; }
+  width: 100%;
+  background-color: #ecf0f1; }
   .content .header {
-    height: 350px;
+    position: absolute;
+    height: 300px;
     width: 100%;
     background-position: center center;
-    background-size: cover; }
+    background-size: cover;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1; }
     .content .header.bg-1 {
       background-image: url(../images/bg1.jpg); }
     .content .header.bg-2 {
@@ -222,3 +268,27 @@ ul {
       background-image: url(../images/bg19.jpg); }
     .content .header.bg-20 {
       background-image: url(../images/bg20.jpg); }
+
+.main-content {
+  width: 100%;
+  z-index: 2; }
+  .main-content .card {
+    height: 500px;
+    width: 400px;
+    background: #2980b9;
+    margin: 0 auto;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 5px;
+    border-radius: 5px; }
+
+.top-bar {
+  height: 50px;
+  line-height: 50px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 0 0 50px; }
+  .top-bar .menu {
+    color: #fff;
+    margin: 0 0 0 20px;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 50px; }

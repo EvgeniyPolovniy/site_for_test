@@ -8,6 +8,7 @@ $white_50:                                                     rgba(255, 255, 25
 
 $black:                                                        #000;
 $black_20:                                                     rgba(0, 0, 0, .2);
+$black_50:                                                     rgba(0, 0, 0, .5);
 
 $turquoise:                                                    #1abc9c;
 $green_sea:                                                    #16a085;
@@ -30,6 +31,24 @@ $midnight_blue:                                                #2c3e50;
 $concrete:                                                     #95a5a6;
 $asbestos:                                                     #7f8c8d;
 
-//main menu
-$main_menu_width:                                              200px;
-$main_menu_logo_height:                                        45px;
+//global
+$shadow:                                                       0 3px 3px 0 $black_20;
+
+//content
+$content_bg:                                                   $clouds;
+
+//main-menu
+$main_menu_width:                                              250px;
+$main_menu_bg:                                                 $wet_asphalt;
+$main_menu_bg_before:                                          $black_50;
+
+//header
+$header_height:                                                300px;
+
+//top bar
+$top_bar_height:                                               50px;
+$top_bar_bg:                                                   $black_20;
+$top_bar_menu_color:                                           $white;
+
+//main content
+$main_content_card_bg:                                         $belize_hole;

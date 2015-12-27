@@ -3,6 +3,8 @@ $(document).ready(function () {
   getBtcPrices();
   randomBg(1, 20);
 
+  $('body').on('click','.js-menu, .js-menu-bg', menuAction);
+
 });
 
 function getBtcPrices () {
@@ -29,4 +31,8 @@ function randomBg (min, max) {
   rand = Math.round(rand);
   var bgClass = 'bg-' + rand;
   $('.js-bg').addClass(bgClass);
+}
+
+function menuAction () {
+  $('body').toggleClass('active-menu');
 }
