@@ -5,6 +5,8 @@ $(document).ready(function () {
 
   $('body').on('click','.js-menu, .js-menu-bg', menuAction);
 
+  $('ul.tabs').tabs();
+
 });
 
 function getBtcPrices () {
